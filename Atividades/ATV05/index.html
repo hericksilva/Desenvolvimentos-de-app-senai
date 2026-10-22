@@ -1,0 +1,111 @@
+<html lang ="pt-BR">
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ATV 05</title>
+	</head>
+<body>
+	<header>
+		<h1>Portal Multimídia de Tecnologia</h1>
+			<p>Explore o universo da computação, programação e inovação</p>
+			<nav>
+				<a href="#Galeria">Galeria | </a>
+				<a href="#podcast">podcast | </a>
+				<a href="#Video">Video | </a>
+				<a href="#Comportamento">Comportamento | </a>
+				<a href="#Biblioteca">Biblioteca | </a>
+				<a href="#Matematica">Matemática | </a>
+				
+			</nav>
+	</header>
+	
+		<hr />
+		
+	<main>
+		<section>
+			<h2>Galeria de Tecnologia</h2>
+				<figure>
+					
+						<img src = "img/computador.jpg"  width="25%" alt ="computação" title = "Computador">
+						<figcaption>Estação de Desenvolvimento</figcaption>
+						<img src = "img/robotica.jpg"  width="25%" alt ="robotica" title = "Computador">
+						<figcaption>Robótica e automação</figcaption>
+						
+				</figure>
+				
+			<h2>Imagem responsiva</h2>
+				<picture>
+				
+				<source media="(max-width: 720px)" srcset="img/laboratorio-mobile.jpg">
+				<source media="(min-width: 721px)" srcset="img/laboratorio.jpg">
+				<img src ="img/laboratorio.jpg" alt ="laboratorio informatica">
+				<figcaption>A Tecnologia está presente no desenvolvimento de sistemas, automação e na comunicação</figcaption>
+				
+				</picture>
+		</section>
+		
+		<hr />
+		
+		<section>
+				<h2>Podcast de Tecnologia </h2>
+				<p><strong>O futuro da programação</strong></P>
+				<p>Neste episódio, discutimos linguagem de programção, inteligencia artificial e carreira.</p>
+					<audio controls>
+					
+					<source src="audio/DevNaEstrada.mp3" type="audio/mpeg">
+					
+					</audio>
+		</section>
+		
+		<hr />
+		
+		<section>
+			<h2>Aula em Video</h2>
+			<p><strong>Introdução à programção</strong></p>
+				<video controls width="30%" poster="img/capa-video.jpg">
+					<source src="video/aula.mp4" type="video/mp4">
+					<track src="video/legenda.vtt" kind="subtitles" srclang="pt-BR" label="Português" default />
+					Esse navegador não suporta a reprodução de vídeo
+				</video>
+				<p>Assista e acompanhe as legendas disponiveis no reprodutor.</p>
+		</section>
+		
+		<hr />
+		
+		<section>
+			<h2>Mapa interativo de Componentes</h2>
+			  <p>Assista e acompanhe as legendas disponiveis no reprodutor.</p>
+				<img src="img/mapa-componentes.jpg"
+					 alt="Mapa de componentes"
+					 width="335"
+					 height="597"
+					 usemap="#mapa">
+
+					<map name="mapa">
+
+						<area shape="rect"
+							  coords="10,195,325,248"
+							  href="#processador"
+							  alt="Processador">
+
+						<area shape="rect"
+							  coords="10,309,325,362"
+							  href="#memoria"
+							  alt="Memória RAM">
+
+						<area shape="rect"
+							  coords="10,412,325,476"
+							  href="#Armazenamento"
+							  alt="Armazenamento">
+
+					</map>
+				<h3 id = "processador">Processador</h3>
+				<p>Executar instruções e realiza operações</p>
+				<h3 id = "memoria">Memória RAM</h3>
+				<p>Armazena temporariamente dados em uso</p>
+				<h3 id = "Armazenamento">Armazenamento</h3>
+				<p>Guarda arquivos e programas de forma persistente</p>
+		</section>
+		
+	</main>
+	</body>
